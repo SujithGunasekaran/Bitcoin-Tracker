@@ -1,0 +1,85 @@
+.coinlist-main
+{
+    /* margin : 0px 35px; */
+    padding : 25px 5px 25px 5px;
+    display: flex;
+    align-items: center;
+    /* border-bottom: 2px solid rgb(53, 52, 52); */
+}
+.coinlist-index
+{
+    color : #b3b3b3;
+    width : 40px;
+}
+.coinlist-image
+{
+    margin-left: 10px;
+    max-width: 30px;
+    height : 30px;
+}
+.coinlist-name
+{   
+    flex: 1;
+    padding-left: 30px;
+    letter-spacing: 0.040rem;
+}
+.coinlist-symbol
+{
+    flex : 1;
+    color : #b3b3b3;
+    text-transform: uppercase;
+}
+.coinlist-volume
+{
+    flex: 1;
+    color : #b3b3b3;
+}
+.coinlist-pricechange
+{
+    flex : 1;
+}
+.coinlist-pricechange-negative
+{
+    color : red;
+}
+.coinlist-pricechange-positive
+{
+    color : green;
+}
+.coinlist-market
+{
+    flex : 1;
+    color : #b3b3b3;
+}
+.coinlist-price
+{
+    flex : 1
+}
+
+/* track css */
+
+.track-container
+{
+    margin : 15px 30px;
+}
+.track-table-head
+{
+    display: flex;
+    padding : 10px 8px;
+    position: sticky;
+    position: -webkit-sticky;
+    top : 0;
+    bottom: 0;
+    border-bottom: 1px solid rgb(46, 45, 45);
+    text-transform: uppercase;
+    letter-spacing: 0.030rem;
+    font-size: 0.750rem;
+    color : #b3b3b3;
+    z-index: 99999;
+    transition: 0.5s all ease-in-out;
+}
+.track-table-head.active
+{
+    background-color: black;
+    transition: 0.5s all ease-in-out;
+}
